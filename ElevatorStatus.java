@@ -1,0 +1,5 @@
+public enum ElevatorStatus {
+  ELEVATOR_OCCUPIED,
+  ELEVATOR_EMPTY,
+  ELEVATOR_NOTWORKING;
+}

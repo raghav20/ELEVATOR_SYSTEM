@@ -5,7 +5,7 @@ public class Elevator  {
   private Integer currentFloor;
   private Queue<Integer> goal;
 
-  public Elevator(Integer currentFloor, Queue<Integer> destinationFloors) {
+  public Elevator(Integer currentFloor, Queue<Integer> goal) {
     this.currentFloor = currentFloor;
     this.goal = new LinkedList<Integer>();
   }
